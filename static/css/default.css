@@ -1,0 +1,125 @@
+body {
+    font-family: century gothic;
+    font-color: #417D7B;
+    height: 100%;
+    background: #EAFFEB;
+    background-repeat:no-repeat;
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr='#8FC4A6', 
+    endColorstr='#F2FFD2');
+    background: -moz-linear-gradient(bottom,  #8FC4A6,  #F2FFD2) fixed;
+    background: -webkit-gradient(linear, left bottom, left top, 
+    from(#8FC4A6), to(#F2FFD2)) fixed;
+}
+
+#adminheader {
+    background-color: #eee;
+    border-top: 3px solid #84C4B4;
+    height: 100%;
+    overflow:hidden;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#adminheader li {
+    font-size: 14px;
+    display: inline;
+    padding: 5px;
+}
+
+#adminheader h1 {
+    font-size: 20px;
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 0 .2em .2em;
+}
+
+#adminheader ul {
+    list-style: none;
+    float: right;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 a {
+    font-family: helvetica Neue;
+    text-decoration: none;
+    color: #417D7B;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+    color: #417D7B;
+}
+
+#header h1 {
+    font-size: 20px;
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 0 0 .3em;
+}
+
+#header li {
+    font-size: 14px;
+    display: inline;
+    padding: .5em;
+}
+
+#header ul {
+    list-style: none;
+    text-align: right;
+    float:right;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  text-align: left;
+  border: 1px solid black;
+  background: gray;
+  color: white;
+  padding: 0.2em;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.2em;
+}
+
+#small-dialog-container {
+	margin:50px 0px; padding:0px;
+	text-align:center;
+}
+	
+#small-dialog {
+	width:400px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	background-color:#eee;
+}
+
+#medium-dialog-container {
+	margin:50px 0px; padding:0px;
+	text-align:center;
+}
+	
+#medium-dialog {
+	width:90%;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	background-color:#eee;
+}
